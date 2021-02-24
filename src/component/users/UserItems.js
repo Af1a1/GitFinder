@@ -5,7 +5,7 @@ const UserItems = ({ user: {login, avatar_url, html_url} }) =>{
   
 
     return (
-      <div className='car text-center'>
+      <div className='car text-center' style={myStyle}>
         <img
           src={avatar_url}
           alt=''
@@ -19,6 +19,12 @@ const UserItems = ({ user: {login, avatar_url, html_url} }) =>{
       </div>
     );
   
+}
+
+const myStyle = {
+  border: '1px solid',
+  padding: '1rem',
+  margin: '1rem'
 }
 
 UserItems.prototype = {
