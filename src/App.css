@@ -358,6 +358,18 @@ table th {
   margin-bottom: 1rem;
 }
 
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-top: 1rem;
+}
+
 .navbar ul {
   display: flex;
 }
