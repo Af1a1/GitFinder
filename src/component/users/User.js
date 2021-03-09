@@ -25,6 +25,7 @@ const userStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(3, 1fr)',
   gridGap: '1rem',
+  margin: '10px'
 };
 
 export default User;

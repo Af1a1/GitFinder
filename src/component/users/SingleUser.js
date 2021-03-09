@@ -35,7 +35,7 @@ const SingleUser = ({ match }) => {
 
   return (
     <Fragment>
-      <Link to='/' className='btn btn-light'>
+      <Link to='/' className='btn btn-light m-1'>
         Back to home
       </Link>
       Hireable:{' '}
@@ -44,7 +44,7 @@ const SingleUser = ({ match }) => {
       ) : (
         <i className='fas fa-times-circle text-danger' />
       )}
-      <div className='card grid-2'>
+      <div className='card grid-2 m-1'>
         <div className='all-center'>
           <img
             src={avatar_url}
@@ -90,7 +90,7 @@ const SingleUser = ({ match }) => {
           </ul>
         </div>
       </div>
-      <div className='card text-center'>
+      <div className='card text-center m-1'>
         <div className='badge badge-primary'>Folloers: {followers}</div>
         <div className='badge badge-success'>Following: {following}</div>
         <div className='badge badge-light'>Public Repos: {public_repos}</div>

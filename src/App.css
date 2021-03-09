@@ -9,6 +9,7 @@
   --success-color: #28a745;
 }
 
+  
 * {
   box-sizing: border-box;
   margin: 0;
@@ -360,6 +361,7 @@ table th {
 
 /* Footer */
 .footer {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -367,7 +369,7 @@ table th {
   z-index: 1;
   width: 100%;
   opacity: 0.9;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .navbar ul {

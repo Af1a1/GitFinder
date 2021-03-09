@@ -27,7 +27,7 @@ const Search = () => {
 
   return (
     <div>
-      <form onSubmit={onSubmit} className='form'>
+      <form onSubmit={onSubmit} className='form m-1'>
         <input
           type='text'
           name='text'
@@ -43,7 +43,7 @@ const Search = () => {
       </form>
       {githubContext.users.length > 0 && (
         <button
-          className='btn btn-light btn-block'
+          className='btn btn-light btn-block '
           onClick={githubContext.clearUsers}> 
           Clear
         </button>
